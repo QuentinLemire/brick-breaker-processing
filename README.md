@@ -1,61 +1,127 @@
-# Brick Breaker Processing
+# 🧱🎮 Brick Breaker – Processing
 
 Jeu de casse-briques interactif développé avec Processing (Java).
 
-## Objectif du projet
-Ce projet a été réalisé dans le cadre du module MUX101 – Multimédia et interaction humain-machine.
-L’objectif était de concevoir un jeu 2D complet en Processing en mobilisant la logique de jeu, l’interaction utilisateur, la gestion des collisions, les sons et la programmation orientée objet.
+---
 
-## Fonctionnalités
-- Déplacement horizontal de la raquette à la souris
-- Lancement de la balle au clic
-- Rebonds sur les murs et la raquette
-- Destruction des briques avec points de vie visibles
-- Gestion du score et du nombre de vies
-- Passage au niveau suivant
-- Menu principal
-- Écran de pause
-- Écran de victoire
-- Écran de Game Over
-- Bonus aléatoires :
-  - multi-balle
-  - agrandissement de raquette
-  - vitesse
-  - éclair
-  - vie supplémentaire
-- Effets sonores
-- Sauvegarde d’un classement TOP 5 dans un fichier texte
+## 🚀 À propos du projet
 
-## Compétences mobilisées
+Ce projet a été réalisé dans le cadre du module **MUX101 – Multimédia et interaction humain-machine**.
+
+🎯 Objectif : concevoir un jeu 2D complet en exploitant :
+- l’interaction utilisateur
+- la logique de gameplay
+- les collisions
+- la programmation orientée objet
+
+---
+
+## 🎮 Gameplay
+
+Le joueur contrôle une raquette à la souris pour renvoyer une balle et détruire toutes les briques.
+
+👉 Le but : survivre, scorer et progresser à travers les niveaux.
+
+---
+
+## ⚙️ Fonctionnalités principales
+
+- 🎯 Contrôle fluide de la raquette (souris)
+- 🖱️ Lancement de la balle au clic
+- 🔄 Rebonds réalistes (murs + raquette)
+- 🧱 Briques avec points de vie
+- ❤️ Gestion des vies
+- 🏆 Système de score
+- 📈 Progression par niveaux
+- ⏸️ Pause du jeu
+- 🎉 Écran de victoire
+- 💀 Game Over
+
+---
+
+## ⚡ Bonus dynamiques
+
+- 🔥 Multi-balle
+- 📏 Agrandissement de la raquette
+- ⚡ Accélération de la balle
+- 🌩️ Bonus éclair
+- ❤️ Vie supplémentaire
+
+---
+
+## 🔊 Expérience immersive
+
+- Sons de collisions
+- Effets sonores pour bonus
+- Feedback audio victoire / défaite
+
+---
+
+## 🧠 Compétences développées
+
 - Java / Processing
 - Programmation orientée objet
 - Gestion des collisions
-- Animation 2D
-- Interaction souris / clavier
-- Structuration d’un projet en classes
-- Gestion de fichiers
-- Intégration de sons
+- Animation 2D temps réel
+- Interaction utilisateur (souris / clavier)
+- Structuration d’un projet complexe
+- Gestion de fichiers (classement TOP 5)
 
-## Structure du projet
-Le projet est organisé en plusieurs classes afin de séparer les responsabilités :
-- gestion du jeu
-- balles
-- briques
-- bonus
-- niveaux
-- sons
-- scores
+---
 
-## Lancer le projet
-1. Installer Processing
-2. Ouvrir le fichier principal du projet
-3. Cliquer sur "Run"
+## 🏗️ Architecture du projet
 
-## Aperçu
-Ajoutez ici des captures d’écran du jeu et, si possible, une courte vidéo de démonstration.
+Code organisé en plusieurs classes :
+- 🎮 Gestion du jeu
+- ⚽ Balles
+- 🧱 Briques
+- ⚡ Bonus
+- 📊 Scores
+- 🎵 Sons
+- 📈 Niveaux
 
-## Contexte
-Ce projet m’a permis de mettre en pratique plusieurs notions importantes de l’animation interactive 2D, notamment le déplacement d’objets en temps réel, les collisions, l’interaction avec l’utilisateur et l’organisation d’un programme orienté objet.
+👉 Objectif : code clair, modulaire et maintenable
 
-## Remarque
+---
+
+## ▶️ Lancer le jeu
+
+1. Installer Processing  
+2. Ouvrir le fichier principal `.pde`  
+3. Cliquer sur **Run**
+
+---
+
+## 🎥 Aperçu du jeu
+
+### 🎮 Gameplay
+![Gameplay](captures/gameplay.mov)
+
+### 🧱 Menu
+![Menu](captures/menu.png)
+
+### 💀 Game Over
+![Game Over](captures/gameover.png)
+
+### 🏆 TOP 5
+![TOP5](captures/TOP5.png)
+
+---
+
+## 📚 Contexte pédagogique
+
+Ce projet m’a permis de mettre en pratique :
+- le déplacement d’objets en temps réel  
+- les collisions  
+- l’interaction utilisateur  
+- la conception orientée objet  
+
+👉 Un projet complet combinant logique, graphisme et interactivité.
+
+---
+
+## 💻 Code source
+
 Le code source complet est disponible dans ce dépôt.
+
+---
